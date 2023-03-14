@@ -1,3 +1,5 @@
+![Zsh shell](zsh_shell.png)
+
 # zsh config
 
 This repository contains configuration files for the Zsh shell.
