@@ -1,6 +1,6 @@
-![Zsh shell](zsh_shell.png)
-
 # zsh config
+
+![Zsh shell](zsh_shell.png)
 
 This repository contains configuration files for the Zsh shell.
 
@@ -13,7 +13,21 @@ This repository contains configuration files for the Zsh shell.
 
 ## Installation
 
-To install, clone this repository and copy the `.zshrc` file to your home directory:
+To install, clone this repository and copy the `.zshrc` file to your home directory
+
+-   [FZF install](https://github.com/junegunn/fzf)
+
+### Zsh Plugins
+
+To install and enable the plugins, follow the instructions provided by the plugin's repository:
+
+-   [powerlevel10k](https://github.com/romkatv/powerlevel10k)
+
+-   [zsh-completions](https://github.com/zsh-users/zsh-completions)
+-   [zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions)
+-   [zsh-you-should-use](https://github.com/MichaelAquilina/zsh-you-should-use)
+-   [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting)
+-   [zsh-history-substring-search](https://github.com/zsh-users/zsh-history-substring-search)
 
 ## Usage
 

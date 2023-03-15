@@ -23,7 +23,6 @@ source_file_if_exists() {
   fi
 }
 
-source_file_if_exists "$ZSH_CONFIG_DIR/powerlevel10k/powerlevel10k.zsh-theme" # Powerlevel10k theme for customized prompt appearance and features
 
 source_file_if_exists "$ZSH_CONFIG_DIR/config.zsh"    # General zsh configuration
 source_file_if_exists "$ZSH_CONFIG_DIR/aliases.zsh"   # Customized aliases
@@ -32,6 +31,8 @@ source_file_if_exists "$ZSH_CONFIG_DIR/functions.zsh" # Customized functions
 source_file_if_exists "$FZF_DIR/completion.zsh"              # Enable command line completion for fzf
 source_file_if_exists "$FZF_DIR/key-bindings.zsh"            # Key bindings for easier navigation and usage of fzf
 source_file_if_exists "$HOME/.config/broot/launcher/bash/br" # Source broot launcher for easier directory navigation with broot
+
+source_file_if_exists "$ZSH_CONFIG_DIR/powerlevel10k/powerlevel10k.zsh-theme" # Powerlevel10k theme for customized prompt appearance and features
 
 # To customize prompt, run `p10k configure` or edit ~/.zsh/.p10k.zsh.
 [[ ! -f ~/.zsh/.p10k.zsh ]] || source ~/.zsh/.p10k.zsh
