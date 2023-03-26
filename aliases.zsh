@@ -10,6 +10,7 @@ alias gpt="python3 $HOME/lab/scripts/gpt/ask_gpt.py" # Run gpt.py script
 
 # General
 alias p='pnpm'                  # Alias for 'pnpm' package manager
+alias px='pnpx'                 # Execute Node.js packages without installing globally
 alias r='reset'                 # Alias for 'reset' command
 alias h='history -E'            # Display command history without line numbers
 alias o='xdg-open'              # Open a file or URL using the default application
