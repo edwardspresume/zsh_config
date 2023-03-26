@@ -32,6 +32,11 @@ source_file_if_exists "$FZF_DIR/completion.zsh"              # Enable command li
 source_file_if_exists "$FZF_DIR/key-bindings.zsh"            # Key bindings for easier navigation and usage of fzf
 source_file_if_exists "$HOME/.config/broot/launcher/bash/br" # Source broot launcher for easier directory navigation with broot
 
+# pnpm
+export PNPM_HOME="$HOME/.local/share/pnpm"
+export PATH="$PNPM_HOME:$PATH"
+# pnpm end
+
 source_file_if_exists "$ZSH_CONFIG_DIR/powerlevel10k/powerlevel10k.zsh-theme" # Powerlevel10k theme for customized prompt appearance and features
 
 # To customize prompt, run `p10k configure` or edit ~/.zsh/.p10k.zsh.
