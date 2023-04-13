@@ -56,7 +56,6 @@ zstyle ':completion:*' menu select
 
 
 eval "$(zoxide init zsh)"   # Initializes the zoxide shell integration; better alternative to cd
-eval "$(github-copilot-cli alias -- "$0")" # alias for copilot commands: (??, git?, and gh?)
 
 
 ## History file settings
