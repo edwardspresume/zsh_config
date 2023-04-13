@@ -39,5 +39,6 @@ export PATH="$PNPM_HOME:$PATH"
 
 source_file_if_exists "$ZSH_CONFIG_DIR/powerlevel10k/powerlevel10k.zsh-theme" # Powerlevel10k theme for customized prompt appearance and features
 
+
 # To customize prompt, run `p10k configure` or edit ~/.zsh/.p10k.zsh.
 [[ ! -f ~/.zsh/.p10k.zsh ]] || source ~/.zsh/.p10k.zsh
